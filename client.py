@@ -20,6 +20,7 @@ except (ValueError, InvalidCredentials):
 else:
     print('Finished! Logged in into Steam')
 
+
 game = GameOptions.DOTA2
 summaries = steam_client.get_my_inventory(game)
 
